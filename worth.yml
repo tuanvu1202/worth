@@ -1,0 +1,171 @@
+# Determines how much items are worth on the server.
+# This can be set in this file, or by running the /setworth command.
+worth:
+
+  # Items not listed in this file will not be sellable on the server
+  # Setting the worth to 0 will sell items for free, delete the item or set to -1 to disable.
+
+  # This will set the worth of all logs to '2'
+  log: 2.0  
+
+  # This will work similar to the above syntax
+  wool:
+    '0': 20
+    
+  # This will only allow selling leaves with datavalue '0' and '1'
+  leaves: 
+    '0': 1.0
+    '1': 1.0
+    
+  # This will allow the selling of all, but sells '0' slightly cheaper  
+  sapling:
+    '0': 2.0  
+    '*': 2.5
+
+
+  stonebutton: 6.0
+  wood: 0.50
+  beetroot: 2.0
+  beetrootseeds: 0.25
+  torchflowerseeds: 0.5
+  torchflower: 4.0
+  rawgold: 18.0
+  carrot: 12.0
+  potato: 12.0
+  poisonouspotato: 20.0
+  feather: 0.5
+  brownmushroom: 0.5
+  bamboo: 3.0
+  cocoabeans: 10.0
+  slimeball: 5.0
+  seapickle: 3.0
+  melon: 4.0
+  melonseeds: 0.2
+  coalore: 10.0
+  rawiron: 14.0
+  diamondblock: 720.0
+  netherwart: 2.0
+  redstoneblock: 1.0
+  emeraldblock: 45.0
+  azalea: 0.5
+  deepslatecoalore: 4.0
+  floweringazalea: 3.0
+  weepingvines: 0.2
+  chorusflower: 1.0
+  chorusfruit: 2.0
+  bigdripleaf: 1.0
+  smalldripleaf: 1.0
+  warpedroots: 0.2
+  crimsonroots: 0.2
+  warpedfungus: 0.2
+  hangingroots: 2.0
+  sprucesapling: 2.0
+  twistingvines: 0.2
+  nethersprouts: 0.2
+  crimsonfungus: 0.2
+  redstoneore: 2.0
+  deepslateredstoneore: 8.0
+  ironblock: 30.0
+  redmushroom: 0.5
+  string: 0.5
+  cactus: 8.0
+  ironore: 6.0
+  deepslateironore: 5.0
+  diamondore: 85.0
+  copperore: 14.0
+  deepslatecopperore: 18.0
+  ironingot: 5.0
+  goldore: 8.0
+  deepslategoldore: 15.0
+  pumpkin: 8.0
+  pumpkinseeds: 0.5
+  copperingot: 14.0
+  redstone: 2.0
+  glowberries: 1.0
+  goldingot: 5.0
+  netheriteingot: 400.0
+  amethystcluster: 1.0
+  amethystshard: 3.0
+  largeamethystbud: 1.0
+  mediumamethystbud: 1.0
+  smallamethystbud: 1.0
+  echoshard: 5.0
+  clayball: 1.0
+  lapislazuli: 5.0
+  goldblock: 45.0
+  copperblock: 25.0
+  brick: 5.0
+  totemofundying: 250.0
+  sweetberries: 10.0
+  rawcopper: 10.0
+  coal: 8.0
+  charcoal: 8.0
+  diamond: 80.0
+  quartz: 5.0
+  emeraldore: 5.0
+  emerald: 3.0
+  ghasttear: 10.0
+  deepslateemeraldore: 500.0
+  bonemeal: 0.5
+  junglesapling: 2.0
+  birchsapling: 2.0
+  oaksapling: 2.0
+  cherrysapling: 1.0
+  darkoaksapling: 2.0
+  acaciasapling: 2.0
+  lapisore: 4.0
+  deepslatelapisore: 8.0
+  deepslatediamondore: 150.0
+  nethergoldore: 8.0
+  netherquartzore: 5.0
+  lapisblock: 12.0
+  wheat: 12.0
+  wheatseeds: 2.0
+  sugarcane: 6.0
+  kelp: 4.0
+  ironnugget: 0.5
+  goldnugget: 0.5
+  ancientdebris: 300.0
+  netheritescrap: 200.0
+  glowstonedust: 1.0
+  cookedbeef: 3.0
+  cookedchicken: 3.0
+  cookedcod: 2.0
+  chicken: 1.0
+  cookedmutton: 3.0
+  cookedporkchop: 0.4
+  cookedrabbit: 2.0
+  cookedsalmon: 2.0
+  glowinksac: 2.0
+  beef: 1.0
+  leather: 4.0
+  cod: 1.0
+  porkchop: 0.2
+  pufferfish: 5.0
+  rabbithide: 5.0
+  rabbit: 1.0
+  salmon: 1.0
+  mutton: 1.0
+  bonemeal: 0.5
+  snowball: 0.25
+  inksac: 2.0
+  tropicalfish: 1.0
+  seagrass: 0.2
+  bowl: 1.0
+  rottenflesh: 1.0
+  spidereye: 0.5
+  enderpearl: 2.0
+  poppy: 0.1
+  blazerod: 2.0
+  prismarineshard: 0.2
+  prismarinecrystals: 0.2
+  wetsponge: 100.0
+  tidearmortrimsmithingtemplate: 50.0
+  gunpowder: 1.0
+  magmacream: 1.0
+  phantommembrane: 5.0
+  arrow: 1.2
+  saddle: 25.0
+  shulkershell: 50.0
+  bakedpotato: 18.0
+  fishingrod: 4.0
