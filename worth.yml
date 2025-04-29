@@ -153,7 +153,7 @@ worth:
   rabbit: 1.0
   salmon: 1.0
   mutton: 1.0
-  bonemeal: 0.5
+  bone: 1.0
   snowball: 0.25
   inksac: 2.0
   tropicalfish: 1.0
@@ -413,3 +413,4 @@ worth:
   melonslice: 3.0
   goldencarrot: 5.0
   shield: 5.0
+  cobbleddeepslate: 1.25
